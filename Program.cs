@@ -19,15 +19,20 @@ namespace CalculatorV2
 
             if (op == "+")
             {
-                Console.WriteLine(num1 + num2);
+                double result = num1 + num2;
+                Console.WriteLine("Result: " + result);
             } else if (op == "-"){
-                Console.WriteLine(num1 - num2);
+
+                double result = num1 - num2;
+                Console.WriteLine("Result: " + result);
             } else if (op == "/")
             {
-                Console.WriteLine(num1 / num2);
+                double result = num1 / num2;
+                Console.WriteLine("Result: " + result);
             }else if (op == "*")
             {
-                Console.WriteLine(num1 * num2);
+                double result = num1 * num2;
+                Console.WriteLine("Result: " + result);
             } else
             {
                 Console.WriteLine("Invalid Operator");
